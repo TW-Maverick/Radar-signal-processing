@@ -1,6 +1,6 @@
 ## Radar Signal Processing (2023H2)
-### UHF Radar Echo Analysis using the Chungli UHF Radar Station
-This project utilizes the ST Array Antenna at the Chungli UHF Radar Station, operating in a monostatic radar configuration, to analyze received echo signals. The data processing pipeline is as follows:
+### VHF Radar Echo Analysis using the Chungli VHF Radar Station
+This project utilizes the ST Array Antenna at the Chungli VHF Radar Station, operating in a monostatic radar configuration, to analyze received echo signals. The data processing pipeline is as follows:
 
 1. IQ Signal Extraction:  
 When the raw radar signal enters the mixer, it generates in-phase (I) and quadrature (Q) channel signals.  
@@ -17,4 +17,4 @@ The abscissa (x-axis) represents time, and the ordinate (y-axis) represents the 
 (3) Running Mean: Applies a smoothing function to the power spectrum for clearer visualization.
 
 5. Result:  
-Strong echo signals are observed in the spectrogram. These signals were verified to originate from aircraft, which is consistent with the presence of an airport near the Chungli UHF Radar Station.
+Strong echo signals are observed in the spectrogram. These signals were verified to originate from aircraft, which is consistent with the presence of an airport near the Chungli VHF Radar Station.
