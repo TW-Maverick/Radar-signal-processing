@@ -13,9 +13,7 @@ The abscissa (x-axis) represents time, and the ordinate (y-axis) represents the 
 
 4. Spectral Analysis: 
   (1) Non-coherent Integration: Smooths the raw radar spectrum to reduce noise and improve the clarity of the data.
-
   (2) White Noise Removal: Background noise is filtered out to isolate meaningful signals.
-
   (3) Running Mean: Applies a smoothing function to the power spectrum for clearer visualization.
 
 5. Result: 
